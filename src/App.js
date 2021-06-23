@@ -59,18 +59,20 @@ function App() {
             setQuery(e.target.value);
           }}
         />
-        <button type="submit" className="btn">
-          generate
-        </button>
-        <button
-          type="submit"
-          className="btn"
-          onClick={() => {
-            setMovies([]);
-          }}
-        >
-          reset
-        </button>
+        <div className="btnGroup">
+          <button type="submit" className="btn">
+            generate
+          </button>
+          <button
+            type="submit"
+            className="btn"
+            onClick={() => {
+              setMovies([]);
+            }}
+          >
+            reset
+          </button>
+        </div>
       </form>
       <article className="lorem-text">
         <h1>

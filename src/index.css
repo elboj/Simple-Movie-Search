@@ -75,6 +75,13 @@ p {
 }
 /*  global classes */
 
+.btnGroup {
+  display: flex;
+  /* width: 50%; */
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
 .btn {
   text-transform: uppercase;
   background: hsl(205, 78%, 60%);
@@ -132,6 +139,7 @@ h3 {
   margin-top: 2rem;
   margin-bottom: 4rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -140,8 +148,8 @@ label {
   color: hsl(205, 86%, 17%);
 }
 input {
-  padding: 0.25rem 0.5rem;
-  width: 20rem;
+  padding: 0.55rem 0.5rem;
+  width: 90%;
   border-radius: 0.25rem;
   border: none;
   margin: 0 0.5rem;
