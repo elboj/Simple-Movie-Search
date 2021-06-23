@@ -11,7 +11,7 @@ function App() {
 
   const fetchData = async (q) => {
     setisLoading(true);
-    const res = await axios.get(`http://api.tvmaze.com/search/shows?q=${q}`);
+    const res = await axios.get(`https://api.tvmaze.com/search/shows?q=${q}`);
     if (res.status >= 200 && res.status <= 299) {
       const movies = res.data;
       if (movies.length === 0) {
