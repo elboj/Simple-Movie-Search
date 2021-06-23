@@ -1,7 +1,7 @@
 {
-  "name": "simple-movie-search",
+  "name": "setup",
   "version": "0.1.0",
-  "homepage": " https://elboj.github.io/",
+  "homepage": " https://elboj.github.io/simple-movie-search",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
